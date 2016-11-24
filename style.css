@@ -1,0 +1,40 @@
+#header-nav{
+	background:lightgray;
+}
+.text {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.textbox {
+	margin: 20px 20px 100px 120px;
+	width: 100%;
+	background: darkgray;
+	max-width: 80vw;
+	clear: both;
+	overflow: none;
+}
+
+ul:nth-child(1) {
+	padding-top: 50px;
+}
+ul li p{
+	background-color: darkgray;
+}
+body {
+	padding-top: 50px;
+}
+a, p {
+	font-size: 1.1em;
+	color: black;
+}
+@media (min-width: 400px) and (max-width: 766px){
+	.textbox {
+	margin-left: 70px;
+}
+}
+
+@media (min-width: 767px){
+	.textbox {
+	margin-left: 120px;
+}
